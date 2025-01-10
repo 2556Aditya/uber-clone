@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack=false",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,7 +12,8 @@
     "@clerk/nextjs": "^6.9.8",
     "next": "15.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-google-places-autocomplete": "^4.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
